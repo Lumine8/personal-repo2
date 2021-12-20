@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 body{
-    font-family: 'Hind Siliguri', 
-    sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
+
     margin: 0rem;
     font-weight:bold;
 }
@@ -37,12 +37,20 @@ body{
     display:inline;
     padding:0rem 0.5rem;
 }
+.navigation1{
+    background-color: var(--primary-color);
+    border-radius:10% 0% 100% 100% / 0% 10% 0% 100%   ;
+}
+
+.navigation2{
+    background-color: var(--primary-color);
+    border-radius:10% 0% 100% 100% / 0% 10% 23% 27%  ;
+}
 
 .nav-bar{
-    background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-radius:10% 0% 100% 68% / 0% 10% 23% 26% ;
+    
 }
 
 .nav-bar .link{
@@ -53,14 +61,35 @@ body{
 
 .header-int{
     font-size: 3rem;
-    color: var(--secondary-color);
+    color: #f4fbff;
 }
 
 .nav-bar ul{
     text-align: right;
+    padding-bottom: 2rem;
 }
 
 .sitename{
     font-size: 1.5rem;
 }
 
+.footer{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.footer ul{
+    padding-inline-start: 0rem;
+}
+
+.footer .footer-headers{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link{
+    color:whitesmoke;
+}
+
+.section{
+    text-align: center;
+}
