@@ -18,6 +18,7 @@ body{
 
 .header{
     text-align: center;
+    color: #00B0FF;
 }
 .link{
     text-decoration: none;
@@ -92,4 +93,12 @@ body{
 
 .section{
     text-align: center;
+}
+
+.footer-header{
+    color: #00B0FF;
+}
+footer{
+    position: fixed;
+
 }
