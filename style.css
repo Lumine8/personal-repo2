@@ -15,10 +15,12 @@ body{
     padding-left: 0rem;
     padding-right: 1rem;
 }
+h1{
+    color: #32d9fa;
+}
 
 .header{
     text-align: center;
-    color: #00B0FF;
 }
 .link{
     text-decoration: none;
@@ -94,7 +96,6 @@ body{
 .section{
     text-align: center;
 }
-
 .footer-header{
     color: #00B0FF;
 }
