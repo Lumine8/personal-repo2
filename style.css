@@ -2,7 +2,8 @@
 body{
     font-family: 'Gloria Hallelujah', cursive;
     font-weight:bold;
-    margin: 0;
+    margin: auto;
+    max-width: 100%;
 }
 
 :root{
@@ -76,8 +77,9 @@ h1{
 }
 
 .footer{
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
+    bottom: 0rem;
 }
 .footer ul{
     padding-inline-start: 0rem;
