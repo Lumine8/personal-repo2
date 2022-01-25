@@ -3,6 +3,7 @@ body{
     font-family: 'Gloria Hallelujah', cursive;
     font-weight:bold;
     margin: auto;
+    height: 100%;
 }
 
 :root{
@@ -76,9 +77,9 @@ h1{
 }
 
 .footer{
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     text-align: center;
-
+    
 }
 .footer ul{
     padding-inline-start: 0rem;
@@ -101,9 +102,5 @@ h1{
 }
 
 #animation-bg{
-    display: flex;
-    margin: auto;
     height: 100%;
-    background-size: cover;  
-    background-position: center;  
 }
